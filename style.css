@@ -1,3 +1,4 @@
+
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: Canvas
@@ -430,7 +431,7 @@ span.middot {
 
 .section {
 	position: relative;
-	margin: 60px 0;
+	margin: 0px 0;
 	padding: 60px 0;
 	background-color: #F9F9F9;
 	overflow: hidden;
@@ -9930,7 +9931,7 @@ body:not(.device-touch) .team-overlay {
 
 
 .counter {
-	font-size: 42px;
+	font-size: 33px;
 	font-weight: 600;
 	font-family: 'Raleway', sans-serif;
 }
@@ -13144,4 +13145,28 @@ body:not(.no-transition) #wrapper,
 	transform: none!important;
 	margin:0!important;
 	padding:0!important
+}
+
+.row-con{
+	display: flex;
+	/* width: 60%; */
+	align-items: center;
+	justify-content: space-evenly;
+	/* flex-wrap: nowrap; */
+	/* align-content: stretch; */
+	/* align-items: flex-end; */
+}
+
+.frow-con > div {
+
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.textColor{
+        color: #1ABC9C;
 }
